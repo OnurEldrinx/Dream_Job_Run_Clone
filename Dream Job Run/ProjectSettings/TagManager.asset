@@ -11,6 +11,10 @@ TagManager:
   - PaintTube
   - Palette
   - Book
+  - LawyerGate
+  - ArtistGate
+  - ScientistGate
+  - Collectable
   layers:
   - Default
   - TransparentFX

@@ -3,7 +3,212 @@ guid: aefdcddd222eb374b8210948cc5db8dc
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01___Default
+    second: {fileID: 2100000, guid: c78566992a5a8204b9dd2b477315009a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 02___Default
+    second: {fileID: 2100000, guid: 8325bf71bcc09e94892e0a12e796892f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 03___Default
+    second: {fileID: 2100000, guid: ad67d69f3bf3703469cee60a167e4933, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 04___Default
+    second: {fileID: 2100000, guid: d6c6e69a2f09a444aa288e94c7be9c3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 05___Default
+    second: {fileID: 2100000, guid: 106dbfb18120d2f4cb7e579ba6a2f043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10___Default
+    second: {fileID: 2100000, guid: c4a5eecb271784645bf6c6d3dccfdc47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 11___Default
+    second: {fileID: 2100000, guid: e325b7cd01987144c98694713fc8d239, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: A+text
+    second: {fileID: 2100000, guid: 9ca0fd313569ca74dbd7ca88432b4a8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bank
+    second: {fileID: 2100000, guid: 42b831df4a4a84744be4c72b5408287e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bank_2
+    second: {fileID: 2100000, guid: c43cdb671fd2c9f449e2c6bb5b35edc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bark
+    second: {fileID: 2100000, guid: 006d1b68fd4500149a92eb998f3ec82c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush_Black_Green
+    second: {fileID: 2100000, guid: 6c95d8c846abf5c45b95e42cf1ac076d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush_Flower
+    second: {fileID: 2100000, guid: c4264c84bf8c9ac448e6ed776dc4e091, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bush_Green
+    second: {fileID: 2100000, guid: 232103d6a3cb827488221155b8a001a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chemical_Liquid
+    second: {fileID: 2100000, guid: ebbf7066e3d5ca94b8d2eaa560a62bee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chemical_Liquid_small_tube
+    second: {fileID: 2100000, guid: 15ef5e5b9ebe65d418567616d147ed94, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: F---Text
+    second: {fileID: 2100000, guid: 8718bf2715815b64684084e419de74eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grandution_Cap
+    second: {fileID: 2100000, guid: c85bd43a8b241d14dbe345abbee9cad2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grandution_Cap_Rope
+    second: {fileID: 2100000, guid: 01fa7b96cbdd9754da938744848f4c3c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: a46ecddf0385da04aa5012b2735b4876, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_Blue_Body
+    second: {fileID: 2100000, guid: ad1464dc2cf97304c8bacee74e25130c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_Grey
+    second: {fileID: 2100000, guid: 2a5021a82c8bb4044b5d4d188a2bdee1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint_cover
+    second: {fileID: 2100000, guid: 67723dd87e8ec2547af78dd64b071be9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Test_tube_Glass
+    second: {fileID: 2100000, guid: 875323f413f1c4c4da470965416da97e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tree
+    second: {fileID: 2100000, guid: 206630fde6d898c4a8b84d9f87b768de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balance
+    second: {fileID: 2100000, guid: 034c44987ad9dbf49a475cdc1e2554d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: balance_scale
+    second: {fileID: 2100000, guid: 2a2861936c8ab9d4a8934d095e36edfd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ball
+    second: {fileID: 2100000, guid: b04be4e2bc7c0154892ce136c43daecb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basketball_crucible
+    second: {fileID: 2100000, guid: e8d4d979d65677b42bc926b525f353ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basketball_edge
+    second: {fileID: 2100000, guid: 78be3d78c5b70c84581e9060e7aaa575, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basketball_line
+    second: {fileID: 2100000, guid: 81d27619e6dd35d42a6a119c0710a9ed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: basketball_pole
+    second: {fileID: 2100000, guid: fdf32e349ee9bee4495f0341f36a70f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: book
+    second: {fileID: 2100000, guid: 34bf475e26b5b8440b600231741142e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bordure
+    second: {fileID: 2100000, guid: 87e7487e29a6a00469f329908599943a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: column
+    second: {fileID: 2100000, guid: 6755e12ecf22a384a82efa16e9331282, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: in
+    second: {fileID: 2100000, guid: 2c574047d3879474dbc02e992b8a5707, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: library
+    second: {fileID: 2100000, guid: 885b1e134bae441409dd72a419c73044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paint_Body
+    second: {fileID: 2100000, guid: 02e74dfdbe81433429c21015e6928108, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: paper
+    second: {fileID: 2100000, guid: bd40e9636de278f4f9b1c81473638cf8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: road
+    second: {fileID: 2100000, guid: ad1d11e6e61924d4e8cb5826987b9029, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: step
+    second: {fileID: 2100000, guid: 52b7c51a2a874cf4383d220e5ab39289, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
