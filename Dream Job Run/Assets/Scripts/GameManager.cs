@@ -12,6 +12,8 @@ public class GameManager : MonoBehaviour
     public bool isSucceed;
     public string characterType;
     public int score;
+    public float AScore;
+    public float FScore;
 
     public static GameManager Instance;
 
@@ -41,6 +43,13 @@ public class GameManager : MonoBehaviour
     {
 
         UIManager.Instance.scoreText.text = score.ToString();
+
+    }
+
+    public void NextLevel()
+    {
+
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }
 }

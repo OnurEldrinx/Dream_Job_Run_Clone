@@ -7,6 +7,7 @@ public class Collectable : MonoBehaviour
 
     public GameObject[] collectables; // 0:Science 1:Law 2:Art
     private bool ready;
+    public int value;
 
     // Start is called before the first frame update
     void Start()

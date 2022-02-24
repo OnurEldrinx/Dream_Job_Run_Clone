@@ -17,7 +17,7 @@ public class UIManager : MonoBehaviour
     public Image libraImg;
     public Button nextLevelButton;
     public Image dreamJobImg;
-
+    public Image photoframe;
 
     public static UIManager Instance;
 
@@ -42,6 +42,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+        redBarImg.fillAmount = (float)GameManager.Instance.FScore / 100;
+        greenBarImg.fillAmount = (float)GameManager.Instance.AScore / 100;
+
+
     }
 }
