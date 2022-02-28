@@ -12,7 +12,7 @@ public class Podium : MonoBehaviour
 
     private bool flag = true;
 
-    
+    public ParticleSystem capParticles;
 
     // Update is called once per frame
     void Update()

@@ -282,11 +282,14 @@ public class PlayerController : MonoBehaviour
 
     IEnumerator PhotoShot(float t)
     {
+
+
         transform.DOLocalRotate(new Vector3(0, 180, 0), 1).OnComplete(() => activeCharacter.GetComponent<Animator>().Play("Pose"));
         yield return new WaitForSeconds(t);
         UIManager.Instance.photoframe.gameObject.SetActive(true);
         UIManager.Instance.dreamJobImg.gameObject.SetActive(true);
         UIManager.Instance.nextLevelButton.gameObject.SetActive(true);
+        GameObject.FindGameObjectWithTag("Podium").GetComponent<Podium>().capParticles.Play();
 
     }
 
