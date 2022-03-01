@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using DG.Tweening;
 public class Obstacle : MonoBehaviour
 {
 
@@ -44,6 +44,8 @@ public class Obstacle : MonoBehaviour
 
             GameManager.Instance.AScore -= 20;
             GameManager.Instance.FScore += 10;
+
+            other.transform.DOMoveZ(other.transform.position.z - 2,0.5f);
 
         }
 
