@@ -8,10 +8,10 @@ public class PlayerController : MonoBehaviour
     private PlayerActions PlayerInputActions;
     private Vector3 movement;
     private Vector2 inputVector;
-    public float horizontalSpeed = 3;
-    public float forwardSpeed = 1.5f;
+    public float horizontalSpeed;
+    public float forwardSpeed;
     private bool flag = true;
-
+    private float xBound;
     public GameObject[] characters; // 0:Default 1:Scientist 2:Judge 3:Artist
     public GameObject activeCharacter;
 
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        xBound = 1.5f;
         characterController = GetComponent<CharacterController>();
 
     }
@@ -93,7 +93,7 @@ public class PlayerController : MonoBehaviour
     private void TakeInput()
     {
 
-        inputVector = PlayerInputActions.Movement.Swerve.ReadValue<Vector2>();
+        inputVector = PlayerInputActions.Movement.Swerve.ReadValue<Vector2>().normalized;
         movement = new Vector3(inputVector.x, 0, 0);
 
     }
@@ -123,7 +123,7 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        float c = Mathf.Clamp(transform.position.x, -1.5f, 1.5f);
+        float c = Mathf.Clamp(transform.position.x, -xBound, xBound);
 
         transform.position = new Vector3(c, transform.position.y, transform.position.z);
 
@@ -244,6 +244,13 @@ public class PlayerController : MonoBehaviour
 
         }
 
+        if(other.tag == "Finish")
+        {
+
+            xBound = 1;
+
+        }
+
         if((int.TryParse(other.tag,out int r) && r == GameManager.Instance.AScore) && GameManager.Instance.AScore < 100)
         {
 
@@ -266,6 +273,13 @@ public class PlayerController : MonoBehaviour
             this.transform.parent = finishPos.transform;
             transform.DOLocalMove(Vector3.zero,1.5f).OnComplete(()=>Pose());
             
+
+        }else if((GameManager.Instance.AScore <= 0 && GameManager.Instance.FScore > 0) && other.tag == "Finish")
+        {
+            
+            GameManager.Instance.isLevelFinished = true;
+            UIManager.Instance.nextLevelButton.gameObject.SetActive(true);
+            activeCharacter.GetComponent<Animator>().Play("Sad");
 
         }
 

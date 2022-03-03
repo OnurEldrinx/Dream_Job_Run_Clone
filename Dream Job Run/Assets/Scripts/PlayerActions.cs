@@ -31,7 +31,7 @@ public class @PlayerActions : IInputActionCollection, IDisposable
                 {
                     ""name"": """",
                     ""id"": ""a6b9b8cd-a8e3-4078-8682-7634c733aa51"",
-                    ""path"": ""<Touchscreen>/delta"",
+                    ""path"": ""<Touchscreen>/primaryTouch/delta"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -93,6 +93,17 @@ public class @PlayerActions : IInputActionCollection, IDisposable
                     ""action"": ""Swerve"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7947cff7-bc49-4fa7-90c4-19eab5725a41"",
+                    ""path"": ""<Mouse>/delta"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Swerve"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
